@@ -1,4 +1,4 @@
-package com.javanauta.usuario.infrastructure.exceptions;
+package com.javanauta.controle_gastos.exceptions;
 
 import javax.naming.AuthenticationException;
 

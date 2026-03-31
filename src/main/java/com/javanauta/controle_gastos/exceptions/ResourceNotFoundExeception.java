@@ -1,4 +1,4 @@
-package com.javanauta.usuario.infrastructure.exceptions;
+package com.javanauta.controle_gastos.exceptions;
 
 public class ResourceNotFoundExeception extends RuntimeException {
 

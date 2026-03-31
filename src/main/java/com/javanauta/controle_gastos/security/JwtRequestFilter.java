@@ -1,4 +1,4 @@
-package com.javanauta.usuario.infrastructure.security;
+package com.javanauta.controle_gastos.security;
 
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;

@@ -1,4 +1,4 @@
-package com.javanauta.usuario.infrastructure.security;
+package com.javanauta.controle_gastos.security;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
@@ -48,7 +48,7 @@ public class SecurityConfig {
 
                         // Endpoints públicos
                         .requestMatchers(HttpMethod.GET, "/auth").permitAll()
-                        .requestMatchers(HttpMethod.GET, "/usuario/endereco/**").permitAll()
+                        .requestMatchers("/gastos/**").authenticated()
                         .requestMatchers("/usuario/login").permitAll()
                         .requestMatchers(HttpMethod.POST, "/usuario").permitAll()
 
